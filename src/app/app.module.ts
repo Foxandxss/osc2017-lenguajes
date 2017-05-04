@@ -7,7 +7,6 @@ import { InMemoryWebApiModule } from "angular-in-memory-web-api";
 import { InMemoryDataService } from './in-memory.service';
 import { AppComponent } from './app.component';
 import { LanguageListComponent } from './languages/language-list.component';
-import { LogoComponent } from './languages/logo.component';
 import { LanguageService } from './languages/shared/language.service';
 import { AppRoutingModule } from './app-routing.module';
 import { LanguageDetailsComponent } from './languages/language-details.component';
@@ -17,7 +16,6 @@ import { RatingPipe } from './languages/shared/rating.pipe';
   declarations: [
     AppComponent,
     LanguageListComponent,
-    LogoComponent,
     LanguageDetailsComponent,
     RatingPipe
   ],
